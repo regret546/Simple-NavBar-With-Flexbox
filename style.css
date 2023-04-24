@@ -147,7 +147,7 @@ html {
 }
 
 .logo {
-	width: 10%;
+	width: 110px;
 	cursor: pointer;
 }
 
@@ -169,6 +169,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
+	
 
 }
 
@@ -197,4 +198,11 @@ button {
 button:hover {
 	background-color:rgba(241,246,249,0.8);
 
+}
+
+@media (max-width: 768px) {
+
+	.nav_links li {
+		display: block;
+	}
 }
