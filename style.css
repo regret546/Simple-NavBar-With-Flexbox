@@ -169,8 +169,6 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
-	
-
 }
 
 .nav_links li{
@@ -200,9 +198,63 @@ button:hover {
 
 }
 
-@media (max-width: 768px) {
+.menu {
+	display: none;
+}
+
+.menu-line {
+	width: 20px;
+	height: 3px;
+	background-color: white;
+	margin-bottom: 3px;
+}
+
+@media (max-width: 480px) {
+
+	.menu {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
 
 	.nav_links li {
 		display: block;
 	}
+
+	header {
+		flex-direction: column;
+		padding: 30px 0;
+	}
+
+	.logo {
+		position: absolute;
+		top: 20px;
+		left: 10px;
+	}
+
+	nav {
+		padding-top: 15px;
+		width: 100%;
+	}
+
+	.nav_links li {
+		padding: 15px 0;
+		border-top: 2px solid white;
+		text-align: center;
+		display: none;
+	}
+
+	button {
+		width: 100vh;
+		padding: 15px 0;
+		transition: none;
+		display: none;
+	}
+
+	.active {
+		display: block;
+	}
+
 }
+
