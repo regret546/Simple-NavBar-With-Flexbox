@@ -236,12 +236,17 @@ button:hover {
 	nav {
 		padding-top: 15px;
 		width: 100%;
+
 	}
 
 	.nav_links li {
 		padding: 15px 0;
 		border-top: 2px solid white;
 		text-align: center;
+	
+	}
+
+	.nav_links {
 		display: none;
 	}
 
