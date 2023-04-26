@@ -144,6 +144,7 @@ html {
 	/* Opera/IE 8+ */
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 .logo {
@@ -191,6 +192,8 @@ button {
 	border: none;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	font-size: 20px;
+	opacity: 0.8;
 }
 
 button:hover {
@@ -241,7 +244,8 @@ button:hover {
 
 	.nav_links li {
 		padding: 15px 0;
-		border-top: 2px solid white;
+		border-top: 2px solid #FF8400;
+		opacity: 0.8;
 		text-align: center;
 	
 	}
@@ -254,6 +258,13 @@ button:hover {
 		width: 100vh;
 		padding: 15px 0;
 		transition: none;
+		background-color: #FF8400;
+		opacity: 0.7;
+
+	}
+
+	.cta
+	{
 		display: none;
 	}
 
