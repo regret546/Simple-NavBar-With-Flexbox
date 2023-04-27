@@ -142,17 +142,23 @@ html {
 	/* Firefox, other Gecko */
 	box-sizing: border-box;
 	/* Opera/IE 8+ */
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
+	
 }
 
 .logo {
-	width: 110px;
+	width: 100px;
 	cursor: pointer;
+
 }
 
-body {
+.logo:hover {
+	opacity:0.8;
+}
+
+.background-img {
 	background-image: url(images/backgroundimg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -170,6 +176,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
+	background-color: #ff8f00;
 }
 
 .nav_links li{
@@ -183,17 +190,19 @@ header{
 }
 
 .nav_links li a:hover {
-	color: #F0F0F0;
+	color:rgba(241,246,249,0.8);
 }
 
 button {
 	padding: 9px 25px;
-	background-color:rgba(241,246,249,1);
+	background-color: #ff9a00;
 	border: none;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
-	font-size: 20px;
 	opacity: 0.8;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
 }
 
 button:hover {
@@ -217,7 +226,7 @@ button:hover {
 	.menu {
 		display: block;
 		position: absolute;
-		top: 20px;
+		top: 22px;
 		right: 10px;
 	}
 
@@ -227,17 +236,19 @@ button:hover {
 
 	header {
 		flex-direction: column;
-		padding: 30px 0;
+		padding-top: 30px;
+		padding-bottom: 0;
 	}
 
 	.logo {
 		position: absolute;
-		top: 20px;
+		top: 0;
 		left: 10px;
+		
 	}
 
 	nav {
-		padding-top: 15px;
+		padding-top: 30px;
 		width: 100%;
 
 	}
