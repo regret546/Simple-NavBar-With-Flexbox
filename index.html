@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <header>
+    <header id="head">
      <img class="logo" src="images/Logo.svg" alt="logo" />
         <nav>
             <ul class="nav_links" id="navlist">
@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <div class="background-img"></div>
+    
 
 </body>
 
@@ -36,6 +36,7 @@
     const toggleButton = document.getElementById('toggle-menu');
     const naviList = document.getElementById('navlist');
     const btn = document.getElementById ('cta');
+
 
     toggleButton.addEventListener('click', () => {
     naviList.classList.toggle('active');
