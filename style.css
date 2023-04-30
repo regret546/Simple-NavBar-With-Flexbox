@@ -268,16 +268,17 @@ button:hover {
 	}
 
 	button {
-		width: 100vh;
 		padding: 15px 0;
 		transition: none;
 		opacity: 0.7;
+		width: 100%;
 
 	}
 
 	.cta
 	{
 		display: none;
+		width: 100%;
 	}
 
 	.active {
